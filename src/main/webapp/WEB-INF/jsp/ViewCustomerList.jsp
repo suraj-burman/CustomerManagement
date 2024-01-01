@@ -85,7 +85,7 @@
         			} else if (msg == "Delete Failure") {
         			    Command: toastr["error"]("Some error occurred, couldn't delete user")
         			} else if (msg == "Edit Success") {
-        				Command: toastr["success"]("Anime updated successfully!!")
+        				Command: toastr["success"]("Customer updated successfully!!")
         			}
 
         			toastr.options = {

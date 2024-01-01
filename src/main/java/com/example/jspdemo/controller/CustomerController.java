@@ -45,7 +45,7 @@ public class CustomerController {
     }
 
     @GetMapping("/editCustomer/{id}")
-    public String editAnime(@PathVariable Long id, Model model) {
+    public String editCustomer(@PathVariable Long id, Model model) {
         model.addAttribute("customer", customerService.getCustomerById(id));
 
         return "EditCustomer";
